@@ -1,6 +1,10 @@
 body{
 font-family: 'Montserrat', sans-serif;
 font-size: 14px;
+width: 91%;
+border: 15px solid rgb(40, 136, 173);
+padding: 50px;
+margin: 20px;
 
 }
 
