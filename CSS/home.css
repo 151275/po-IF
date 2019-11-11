@@ -8,6 +8,14 @@ margin: 20px;
 
 }
 
+body h1{
+    text-align: center;
+}
+
+body h3{
+    text-align: center;
+}
+
 
 nav {
     text-align: left;
