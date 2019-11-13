@@ -9,11 +9,11 @@ margin: 20px;
 }
 
 body{
-    background-image: url("https://media.gettyimages.com/photos/wood-table-with-blur-light-in-night-caferestaurant-background-picture-id683388474?b=1&k=6&m=683388474&s=612x612&w=0&h=xd9A1v91tUdQphU2G2ETl91PVo4c3Kpo4Xnk-4mD_pc=");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #ffffff
-    background-repeat: no-repeat;
+background-image: url("https://media.gettyimages.com/photos/wood-table-with-blur-light-in-night-caferestaurant-background-picture-id683388474?b=1&k=6&m=683388474&s=612x612&w=0&h=xd9A1v91tUdQphU2G2ETl91PVo4c3Kpo4Xnk-4mD_pc=");
+background-repeat: no-repeat;
+background-size: cover;
+background-color: #ffffff;
+color: black;
 }
 
 body h1{
@@ -27,13 +27,32 @@ body h3{
 nav p a{
     text-decoration: none;
     color: black;
-    background-color: none;
+    background-color: white;
 
 }
 
 #introductie{
     text-align: center;
     font-size: 15px;
+}
+
+#contact h3{
+    text-align: left;
+}
+
+#contact h4{
+    text-align: left;
+    font-size: 16px;
+}
+
+#contact p{
+    text-align: left;
+    font-size: 16px;
+}
+
+img{
+    display: block;
+    margin-left: 700px;
 }
 
 #openingstijden{
@@ -48,12 +67,27 @@ nav p a{
     color:rgb(247, 111, 0);
 }
 
+#info{
+    text-align: center;
+    font-size: 16px;
+}
+
+#sites{
+    font-size: 16px;
+}
+
+#menu{
+    text-align: center;
+    font-size: 16px;
+}
+
 nav {
     text-align: left;
     width: 100%;
     height: 60px;
-    background-color: transparent;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
 
 }
 
@@ -61,10 +95,9 @@ nav p {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-size: 24px;
-    line-height: 55px;
+    line-height: 20px;
     float: left;
     padding: 0px 20px;
-    background-color: transparent;
 }
 
 nav ul {
@@ -85,9 +118,10 @@ nav ul li a {
     font-size: 18px;
     padding: 22px 14px;
     text-decoration: none;
+    line-height: 20px;
 }
 
 ul a:hover {
-    background-color: none;
-    padding: 14px 25px;
+    background-color: white;
+    padding: 12px 25px;
 }
