@@ -1,6 +1,6 @@
 body{
 font-family: 'Montserrat', sans-serif;
-font-size: 14px;
+font-size: 16px;
 width: 87%;
 border: 15px solid rgb(40, 136, 173);
 padding: 50px;
@@ -33,7 +33,11 @@ nav p a{
 
 #introductie{
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
+}
+
+#introductie h1{
+   color: rgb(247, 111, 0);
 }
 
 #container {
@@ -45,6 +49,10 @@ nav p a{
 #boven {
     width: 100%;
     height: 50%;
+}
+
+#boven h1{
+    color: rgb(247, 111, 0);
 }
 
 #onder {
@@ -61,7 +69,7 @@ nav p a{
     border-right: 8px dotted rgb(247, 111, 0);
     border-left: 8px dotted rgb(247, 111, 0);
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 #gegevens h1{
@@ -75,30 +83,76 @@ nav p a{
 }
 
 #openingstijden{
-    width: 300px;
+    width: 380px;
     padding: 12px;
     border-right: 8px dotted rgb(247, 111, 0);
     border-left: 8px dotted rgb(247, 111, 0);
     text-align: center;
+    font-size: 18px;
 }
 
 #openingstijden h2{
     color:rgb(247, 111, 0);
 }
 
+#reserveren{
+    text-align: center;
+    font-size: 18px;
+    width: 1075px;
+    padding: 12px;
+    border-right: 8px dotted rgb(247, 111, 0);
+    border-left: 8px dotted rgb(247, 111, 0);
+}
+
+#reserveren h1{
+    color: rgb(247, 111, 0);
+}
+
 #info{
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
+    width: 1075px;
+    padding: 12px;
+    border-right: 8px dotted rgb(247, 111, 0);
+    border-left: 8px dotted rgb(247, 111, 0);
+}
+
+#info h1{
+    color: rgb(247, 111, 0);
 }
 
 #sites{
-    font-size: 16px;
+    font-size: 18px;
+    width: 1075px;
+    padding: 12px;
+    border-right: 8px dotted rgb(247, 111, 0);
+    border-left: 8px dotted rgb(247, 111, 0);
+    text-align: center;
+}
+
+#sites h1{
+    color: rgb(247, 111, 0);
+}
+
+#sites li{
+    text-align: left;
 }
 
 #menu{
     text-align: center;
-    font-size: 16px;
+    margin-left: 32px;
+    font-size: 18px;
+    width: 1000px;
+    padding: 12px;
+    border-right: 8px dotted rgb(247, 111, 0);
+    border-left: 8px dotted rgb(247, 111, 0);
 }
+
+#menu h1{
+    color: rgb(247, 111, 0);
+}
+
+
 
 nav {
     text-align: left;
