@@ -36,29 +36,42 @@ nav p a{
     font-size: 15px;
 }
 
-#contact h3{
-    text-align: left;
+#container {
+    width: 100%;
+    height: 85%;
+    
 }
 
-#contact h4{
-    text-align: left;
-    font-size: 16px;
+#boven {
+    width: 100%;
+    height: 50%;
 }
 
-#contact p{
-    text-align: left;
-    font-size: 16px;
+#onder {
+    padding-top: 20px;
+    width: 80%;
+    height: 50%;
+    display: flex;
 }
 
-img{
-    display: block;
-    margin-left: 700px;
+#gegevens{
+    width: 50%;
+    height: 100%;
+    margin: 50px;
+    border-right: 8px dotted rgb(247, 111, 0);
+    border-left: 8px dotted rgb(247, 111, 0);
+}
+
+#plaatje{
+    width: 10%;
+    height: 100%;
+    margin-left: 300px;
 }
 
 #openingstijden{
     width: 300px;
     padding: 12px;
-    border-right: 8px dotted rgb(247, 111, 0);
+    border-right: 20px dotted rgb(247, 111, 0);
     border-left: 8px dotted rgb(247, 111, 0);
     text-align: center;
 }
@@ -121,7 +134,23 @@ nav ul li a {
     line-height: 20px;
 }
 
+#sites a:link{
+    color: rgb(247, 111, 0);
+}
+
+#sites a:visited{
+    color: rgb(247, 111, 0)
+}
+
+#sites a:hover{
+    color: rgb(40, 136, 173);
+}
+
+#sites a:active{
+    color: rgb(145, 11, 11);
+}
+
 ul a:hover {
-    background-color: white;
+    background-color: none;
     padding: 12px 25px;
 }
